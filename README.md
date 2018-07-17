@@ -44,10 +44,8 @@ my-app
 ├── e2e
 ├── node_modules
 ├── src
-├── .angular-cli.json
-├── karma.conf.js
+├── angular.json
 ├── package.json
-├── protractor.conf.js
 ├── README.md
 ├── tsconfig.json
 ├── tslint.json
@@ -62,13 +60,7 @@ Open [http://localhost:4200](http://localhost:4200) to view it in the browser. <
 The page will reload if you make edits.
 
 ### `npm run build`
-Builds the app in production mode and stores it in the `dist/` directory.
-
-### Adding other jQWidgets
-
-This project will show you the `Angular jQWidgets Grid`. But of course you will want to use some other widgets too. <br />
-For that you need to add their core files first. This is done in the `.angular-cli.json` file. <br />
-Inside you will find a `scripts` property in which you must add the needed `jqx` core files. 
+Builds the app and stores it in the `dist/` directory.
 
 ## Why Use This?
 
